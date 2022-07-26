@@ -1,0 +1,24 @@
+
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/demo1?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username:
+    password: bsoaqkxrepzgkucn
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
