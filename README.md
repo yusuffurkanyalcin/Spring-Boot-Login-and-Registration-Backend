@@ -7,8 +7,8 @@
 
 # Notes
 - Used MySQL Database locally
-- Used `maildev` container to control email verification 
 - You are able to use your local database by updating the `application.yaml` fields
+- Used `maildev` container to control email verification 
 - Also `server.port = 8080`
 
 Folder Structure 
